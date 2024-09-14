@@ -1,0 +1,30 @@
+[debug] [2024-09-14T10:03:45.833Z] ----------------------------------------------------------------------
+[debug] [2024-09-14T10:03:45.837Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2024-09-14T10:03:45.838Z] CLI Version:   13.13.1
+[debug] [2024-09-14T10:03:45.839Z] Platform:      linux
+[debug] [2024-09-14T10:03:45.839Z] Node Version:  v18.19.1
+[debug] [2024-09-14T10:03:45.839Z] Time:          Sat Sep 14 2024 10:03:45 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-09-14T10:03:45.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-14T10:03:45.849Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/pythonflaskworkspace
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-14T10:04:07.583Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2024-09-14T10:04:08.311Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2024-09-14T10:04:08.312Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
